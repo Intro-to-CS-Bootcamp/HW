@@ -1,11 +1,9 @@
-# Hint: there might be more than one base case
-
 def factorial(n)
-    if __________________  # base case
-        return ____
-    else
-        return ____________________  # recursive call
-    end
+  if __________________  # base case
+    return ____
+  else
+    return ____________________  # recursive call
+  end
 end
 
 puts(factorial(3)) # expected: 6
