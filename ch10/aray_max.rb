@@ -1,6 +1,5 @@
 # Assume a non-empty array of integers
-# Don't forget to use array indexing and the helper function
-# Hint: use array.pop() method to remove the last element of an array
+# Don't forget to use array indexing and array.pop() to remove the last element of an array
 
 def array_max(array)
     if array.length == 1  # base case
