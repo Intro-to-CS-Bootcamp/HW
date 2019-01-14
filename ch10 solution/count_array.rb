@@ -9,6 +9,7 @@ def count_array(array)
         else
             count += 1
         end
+    end
     return count
 end
 
