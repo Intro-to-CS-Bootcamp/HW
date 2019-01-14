@@ -2,14 +2,15 @@
 # Use .kind_of?(Array) method
 
 def count_array(array)
-    count = 0
-    array.each do |item|
-        if item.kind_of?(Array)
-            count += count_array(item)
-        else
-            count += 1
-        end
-    return count
+  count = 0
+  array.each do |item|
+    if item.kind_of?(Array)
+      count += count_array(item)
+    else
+      count += 1
+    end
+  end
+  return count
 end
 
 puts(count_array([[2, 4, 6], 8, [10, 12, [14, 16]]])) # expected: 8
