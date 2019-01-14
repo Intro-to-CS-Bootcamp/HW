@@ -1,9 +1,7 @@
 def factorial(n)
-  if __________________  # base case
-    return ____
-  else
-    return ____________________  # recursive call
-  end
+  
+    # YOUR CODE HERE #
+
 end
 
 puts(factorial(3)) # expected: 6
