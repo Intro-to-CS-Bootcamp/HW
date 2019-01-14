@@ -1,6 +1,6 @@
 def factorial(n)
   
-    # YOUR CODE HERE #
+  # YOUR CODE HERE #
 
 end
 
