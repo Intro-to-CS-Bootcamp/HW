@@ -5,9 +5,9 @@ def array_max(array)
     if array.length == 1  # base case
         return _________
     else
-        first = _________
+        last = _________
         rest = _________________  # recursive call
-        if first > rest
+        if last > rest
             return ______
         else
             return ______
